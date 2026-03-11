@@ -1,0 +1,43 @@
+body {
+  background: #e9e9e9;
+  font-family: Georgia, serif;
+}
+
+#container {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: Arial, sans-serif;
+  color: #c46a2d;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+article img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+article h2:first-of-type {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+article {
+  column-count: 3;
+  column-gap: 25px;
+}
+
+article p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
