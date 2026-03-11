@@ -11,10 +11,11 @@ body {
 }
 
 header h1 {
-  font-family: Arial, sans-serif;
   color: #c46a2d;
+  font-family: Arial, sans-serif;
   font-size: 18px;
-  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
 }
 
 article img {
@@ -25,8 +26,9 @@ article img {
 }
 
 article > h2:first-of-type {
-  font-size: 64px;
+  font-size: 58px;
   line-height: 0.95;
+  margin-left: 20px;
   margin-bottom: 25px;
 }
 
